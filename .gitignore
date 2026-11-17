@@ -1,0 +1,25 @@
+# Personal data produced by each run: never commit it
+cache/
+sortie/
+graph.json
+config.json
+config_proposee.json
+candidats.txt
+
+# Zotero exports
+*.csv
+*.bib
+*.bibtex
+*.ris
+/*.json
+!exemples/*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# System
+.DS_Store
+Thumbs.db

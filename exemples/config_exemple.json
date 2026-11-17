@@ -1,0 +1,26 @@
+{
+ "langue": "fr",
+ "titre": "Généalogie d’une thèse",
+ "sous_titre": ["Les petits mondes", "de la science des réseaux"],
+ "signature": "Prénom Nom — 2026",
+ "annee_centre": 1900,
+ "themes": [
+  {"id": 2, "nom": "Théorie des graphes", "couleur": "#C65A3B"},
+  {"id": 0, "nom": "Réseaux sociaux", "couleur": "#4A6FB5"},
+  {"id": 1, "nom": "Réseaux biologiques", "couleur": "#2F94A3"},
+  {"id": 3, "nom": "Épidémies", "couleur": "#D1A02A"}
+ ],
+ "fusionner": {"4": 1, "5": 0},
+ "jalons": [
+  {"id": "10.1038/30918", "nom": "Watts et Strogatz", "quoi": "Modèle small-world"},
+  {"id": "10.1126/science.286.5439.509", "nom": "Barabási et Albert", "quoi": "Modèle scale-free"},
+  {"id": "u:milgram:1967", "nom": "Milgram", "annee": 1967, "quoi": "Six degrés de séparation"},
+  {"id": "u:euler:1736", "nom": "Euler", "annee": 1736, "quoi": "Ponts de Königsberg", "theme": 2,
+   "cite_par": ["10.1038/30918", "10.1126/science.286.5439.509"], "citations": 5000}
+ ],
+ "toujours_nommer": ["10.1038/35019019"],
+ "jamais_nommer": ["10.1103/revmodphys.74.47"],
+ "outils": {"ids": ["10.1088/1742-5468/2008/10/p10008"], "noms": ["Benjamini", "Hochberg", "Bonferroni", "Holm"]},
+ "mes_articles": ["10.xxxx/mon-premier-article", "10.xxxx/mon-second-article"],
+ "renommer": {"10.1017/cbo9780511815478": "Wasserman et Faust"}
+}

@@ -1,0 +1,6 @@
+numpy>=1.23
+matplotlib>=3.6
+networkx>=2.8
+# Optional but recommended: cleaner ordering of works within sectors (ForceAtlas2).
+# If it fails to install (some Windows set-ups), delete this line: the scripts fall back on networkx.
+fa2_modified>=0.3.10
